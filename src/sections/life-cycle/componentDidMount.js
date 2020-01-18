@@ -9,7 +9,6 @@ class EjemploDeComponentDidMount extends Component {
 
   componentWillMount () {
     console.log('componentWillMount')
-
   }
 
   componentDidMount () {
@@ -17,7 +16,6 @@ class EjemploDeComponentDidMount extends Component {
     document.addEventListener('scroll', () => {
       this.setState({ scroll: window.scrollY })
     })
-
   }
 
   render () {
