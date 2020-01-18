@@ -16,10 +16,10 @@ class FetchExample extends Component {
     const { bpi } = this.state
     const currencies = Object.keys(bpi) // ['EUR', 'GBP', 'USD']
     return currencies.map(currency => (
-       <div key={currency}>
+      <div key={currency}>
         1 BTC is {bpi[currency].rate}
         <span>{currency}</span>
-       </div>
+      </div>
     ))
   }
 
