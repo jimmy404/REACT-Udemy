@@ -13,7 +13,7 @@ class Render extends Component {
     console.log('componentWillMount')
   }
 
-  render () {
+  /* render () {
     console.log('render')
     return [
       <h1 key='A'>Primer elemento</h1>,
@@ -21,7 +21,7 @@ class Render extends Component {
       <HelloRender key='C' />,
       <h3 key='D'>Cuarto elemento</h3>
     ]
-  }
+  } */
 }
 
 export default Render
