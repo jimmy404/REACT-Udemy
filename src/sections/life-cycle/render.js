@@ -13,15 +13,12 @@ class Render extends Component {
     console.log('componentWillMount')
   }
 
-  /* render () {
+  render () {
     console.log('render')
-    return [
-      <h1 key='A'>Primer elemento</h1>,
-      <HelloRender key='B' />,
-      <HelloRender key='C' />,
-      <h3 key='D'>Cuarto elemento</h3>
-    ]
-  } */
+    return (
+      <HelloRender/>
+    );
+  }
 }
 
 export default Render
