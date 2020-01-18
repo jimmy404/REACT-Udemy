@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import Render from './sections/life-cycle/render';
 
 
 class App extends Component {
