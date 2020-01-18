@@ -32,7 +32,6 @@ class ComponenteADesmontar extends Component {
     )
   }
 }
-
 class EjemploDeComponentWillUnmount extends Component {
   state = { mostrarComponente: true }
 
